@@ -256,7 +256,7 @@ export default function EBTKELandingPage() {
                 <h3 className="text-2xl font-bold text-[#28306E] mb-2">
                   Ms. Amalia Shalihati
                 </h3>
-                <p className="text-[#28306E] text-xl font-normal mb-4">
+                <p className="text-[#28306E] text-2xl font-normal mb-4">
                   Program Manager
                 </p>
                 <div className="space-y-3 text-2xl font-medium text-[#28306E]">
