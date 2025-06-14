@@ -254,7 +254,7 @@ export default function EBTKELandingPage() {
               {/* Card 1 */}
               <div className="text-center px-4 py-8 border-b md:border-b-0 md:border-r border-white last:border-0 md:last:border-r-0 xl:border-b-0">
                 <h3 className="text-2xl font-bold text-[#28306E] mb-2">
-                  Ms. Amalia Shalihati
+                  Ms. Amilia Shalihati
                 </h3>
                 <p className="text-[#28306E] text-2xl font-normal mb-4">
                   Program Manager
@@ -329,7 +329,7 @@ export default function EBTKELandingPage() {
               <div className="space-y-2">
                 <div className="flex items-center justify-center text-xl text-[#28306E] gap-2">
                   <span>
-                    Plaza 18<sup>th</sup> floor, Jl. Jend Sudirman Kav 58 - 59
+                    Plaza Asia 18<sup>th</sup> floor, Jl. Jend Sudirman Kav 58 - 59
                   </span>
                 </div>
                 <p className="text-[#28306E] text-xl">Jakarta Selatan</p>
@@ -337,7 +337,7 @@ export default function EBTKELandingPage() {
 
               <div className="space-y-2 mt-6">
                 <h5 className="text-xl font-bold text-[#28306E]">
-                  Ms. Amalia
+                  Ms. Amilia
                 </h5>
                 <div className="flex items-center justify-center text-xl text-[#28306E] gap-2">
                   <span>+62 812 2223 7200</span>
