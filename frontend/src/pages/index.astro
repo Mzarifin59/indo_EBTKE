@@ -1,0 +1,354 @@
+---
+import HeaderNavbar from '@/components/Header-Navbar.astro';
+import Footer from '@/components/Footer.astro';
+import Main from '@/layouts/main.astro';
+import { Phone, Mail } from 'lucide-react';
+---
+
+<Main>
+	<div class="min-h-screen">
+      <div class="relative overflow-hidden">
+        <div class="absolute bg-gradient-to-b from-blue-300 to-white inset-0 h-[350px] z-0"></div>
+
+        {/* Header */}
+        <HeaderNavbar />
+
+        {/* Sponsors Section */}
+        <section class="relative z-10 bg-transparent py-10">
+          <div class="container mx-auto px-4">
+            <div class="flex flex-col items-center lg:flex-row lg:justify-between lg:items-start gap-8">
+              {/* Part One */}
+              <div class="flex sm:flex-row gap-4 sm:gap-6 items-center">
+                <div class="flex flex-col gap-2 items-center w-full sm:w-auto">
+                  <p class="text-xs sm:text-sm font-normal text-center">
+                    Supported By
+                  </p>
+                  <img
+                    src={"/images/partners/esdm.png"}
+                    alt="esdm.png"
+                    width={50}
+                    height={50}
+                    class="object-contain w-[40px] h-[40px] sm:w-[50px] sm:h-[50px]"
+                  />
+                </div>
+
+                <div class="flex flex-col gap-2 items-center w-full sm:w-auto">
+                  <p class="text-xs sm:text-sm font-normal text-center">
+                    Hosted By
+                  </p>
+                  <div class="flex gap-2 justify-center">
+                    <img
+                      src={"/images/partners/meti.png"}
+                      alt="meti.png"
+                      width={50}
+                      height={50}
+                      class="object-contain w-[40px] h-[40px] sm:w-[50px] sm:h-[50px]"
+                    />
+                    <img
+                      src={"/images/partners/maskeei.png"}
+                      alt="maskeei.png"
+                      width={50}
+                      height={50}
+                      class="object-contain w-[40px] h-[40px] sm:w-[50px] sm:h-[50px]"
+                    />
+                  </div>
+                </div>
+
+                <div class="flex flex-col gap-2 items-center w-full sm:w-auto">
+                  <p class="text-xs sm:text-sm font-normal text-center">
+                    Knowledge Partner
+                  </p>
+                  <img
+                    src={"/images/partners/bcg.png"}
+                    alt="bcg.png"
+                    width={50}
+                    height={50}
+                    class="object-contain w-[40px] h-[40px] sm:w-[50px] sm:h-[50px]"
+                  />
+                </div>
+
+                <div class="flex flex-col gap-2 items-center w-full sm:w-auto">
+                  <p class="text-xs sm:text-sm font-normal text-center">
+                    Organized By
+                  </p>
+                  <img
+                    src={"/images/partners/on-us-asia.png"}
+                    alt="on-us-asia.png"
+                    width={50}
+                    height={50}
+                    class="object-contain w-[40px] h-[40px] sm:w-[50px] sm:h-[50px]"
+                  />
+                </div>
+              </div>
+
+              {/* Part Two */}
+              <div class="flex flex-col md:flex-row gap-6 md:gap-10 items-start">
+                <div class="flex flex-col gap-2 items-center w-full md:w-auto">
+                  <p class="text-xs sm:text-sm font-normal text-center">
+                    In Collaboration with
+                  </p>
+                  <div class="flex flex-wrap gap-2 justify-center">
+                    <img
+                      src={"/images/partners/aesi.png"}
+                      alt="aesi.png"
+                      width={50}
+                      height={50}
+                      class="object-contain w-[35px] h-[35px] sm:w-[40px] sm:h-[40px] lg:w-[50px] lg:h-[50px]"
+                    />
+                    <img
+                      src={"/images/partners/aeai.png"}
+                      alt="aeai.png"
+                      width={50}
+                      height={50}
+                      class="object-contain w-[35px] h-[35px] sm:w-[40px] sm:h-[40px] lg:w-[50px] lg:h-[50px]"
+                    />
+                    <img
+                      src={"/images/partners/gbci.png"}
+                      alt="gbci.png"
+                      width={50}
+                      height={50}
+                      class="object-contain w-[35px] h-[35px] sm:w-[40px] sm:h-[40px] lg:w-[50px] lg:h-[50px]"
+                    />
+                    <img
+                      src={"/images/partners/mebi.png"}
+                      alt="mebi.png"
+                      width={50}
+                      height={50}
+                      class="object-contain w-[35px] h-[35px] sm:w-[40px] sm:h-[40px] lg:w-[50px] lg:h-[50px]"
+                    />
+                    <img
+                      src={"/images/partners/applta.png"}
+                      alt="applta.png"
+                      width={50}
+                      height={50}
+                      class="object-contain w-[35px] h-[35px] sm:w-[40px] sm:h-[40px] lg:w-[50px] lg:h-[50px]"
+                    />
+                    <img
+                      src={"/images/partners/himpunan-pmi.png"}
+                      alt="himpunan-pmi.png"
+                      width={50}
+                      height={50}
+                      class="object-contain w-[35px] h-[35px] sm:w-[40px] sm:h-[40px] lg:w-[50px] lg:h-[50px]"
+                    />
+                  </div>
+                </div>
+
+                <div class="flex flex-col gap-2 items-center w-full md:w-auto">
+                  <p class="text-xs sm:text-sm font-normal text-center">
+                    Endorsed By
+                  </p>
+                  <div class="flex gap-2 justify-center">
+                    <img
+                      src={"/images/partners/apindo.png"}
+                      alt="apindo.png"
+                      width={50}
+                      height={50}
+                      class="object-contain w-[35px] h-[35px] sm:w-[40px] sm:h-[40px] lg:w-[50px] lg:h-[50px]"
+                    />
+                    <img
+                      src={"/images/partners/tjs.png"}
+                      alt="tjs.png"
+                      width={50}
+                      height={60}
+                      class="object-contain w-[35px] h-[42px] sm:w-[40px] sm:h-[48px] lg:w-[50px] lg:h-[60px]"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Hero Section */}
+        <section class="relative z-10 pb-[400px] pt-10 bg-transparent">
+          <div class="relative z-20 container mx-auto px-4">
+            <div class="flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-12">
+              {/* Left Side - Logo */}
+              <div class="flex-1 flex justify-center">
+                <img
+                  src="/images/ebtke-logo.png"
+                  alt="ebtke-logo"
+                  width={670}
+                  height={460}
+                  class="object-contain"
+                />
+              </div>
+
+              {/* Separator - Hidden pada mobile, tampil sebagai vertical line pada desktop */}
+              <div class="hidden lg:block">
+                <div class="w-px h-80 bg-gray-400 opacity-50" />
+              </div>
+
+              {/* Separator horizontal untuk mobile */}
+              <div class="block lg:hidden w-full">
+                <div class="h-px bg-gray-400 opacity-50" />
+              </div>
+
+              {/* Right Side - Content */}
+              <div class="flex-1 flex flex-col gap-4 lg:gap-6 text-center lg:text-left">
+                <h3 class="text-2xl sm:text-3xl lg:text-[40px] font-bold text-[#28306E] leading-tight">
+                  Redefining Energy in a New Era to Empower Indonesia's
+                  Renewable Future
+                </h3>
+
+                <p class="text-lg sm:text-xl lg:text-2xl font-normal text-[#28306E] leading-relaxed">
+                  Positioning Indonesia as a Regional Green Powerhouse to
+                  Support Indonesia Emas 2045
+                </p>
+
+                {/* Buttons - Stack pada mobile, horizontal pada desktop */}
+                <div class="font-manrope flex flex-col items-center max-lg:justify-center sm:flex-row gap-4 lg:gap-6 mt-4">
+                  <a href={"/"}>
+                    <button class="py-3 px-6 bg-[#28306E] rounded-lg font-manrope text-white font-medium hover:bg-[#1f2557] transition-colors">
+                      Sponsor
+                    </button>
+                  </a>
+                  <a href={"/"}>
+                    <button class="font-manrope py-3 px-6 bg-[#28306E] rounded-lg font-manrope text-white font-medium hover:bg-[#1f2557] transition-colors">
+                      Exhibitor
+                    </button>
+                  </a>
+                  <a href={"/"}>
+                    <button class="font-manrope py-3 px-6 bg-[#8BC541] rounded-lg font-manrope text-white font-medium hover:bg-green-600 transition-colors">
+                      Register Event
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Background Gedung */}
+          <div class="absolute bottom-0 left-0 right-0 z-[1] h-[600px] overflow-hidden">
+            <img
+              src="/images/background/building-2.png"
+              alt="Background-building"
+              width={1920}
+              height={1080}
+              class="w-full h-full object-cover pointer-events-none"
+            />
+          </div>
+        </section>
+
+        {/* Background Hijau Mountain */}
+        <div class="absolute bottom-0 inset-x-0 left-1/2 transform -translate-x-1/2 w-[1920px] xl:w-[2100px] h-[2600px] xs:h-[2450px] md:h-[2200px] lg:h-[2180px] xl:h-[1850px] overflow-hidden md:z-[11] z-[1]">
+          <img
+            src="/images/background/green-land.svg"
+            alt="Background-greenland"
+            width={1920}
+            height={1800}
+            class="w-full h-full object-cover"
+          />
+        </div>
+
+        {/* Section Information */}
+        <section class="relative px-4 z-20 text-white pt-[600px] pb-16">
+          <div class="max-w-[1540px] relative z-20 mx-auto">
+            <h2 class="text-[32px] font-bold text-center mb-14 text-[#28306E]">
+              For Information
+            </h2>
+
+            {/* GRID CONTACT */}
+            <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 mb-16">
+              {/* Card 1 */}
+              <div class="text-center px-4 py-8 border-b md:border-b-0 md:border-r border-white last:border-0 md:last:border-r-0 xl:border-b-0">
+                <h3 class="text-2xl font-bold text-[#28306E] mb-2">
+                  Ms. Amilia Shalihati
+                </h3>
+                <p class="text-[#28306E] text-2xl font-normal mb-4">
+                  Program Manager
+                </p>
+                <div class="space-y-3 text-2xl font-medium text-[#28306E]">
+                  <div class="flex flex-wrap items-center justify-center gap-2">
+                    <Phone className="w-6 h-6" />
+                    <span>+62 812 2223 7200</span>
+                  </div>
+                  <div class="flex flex-wrap items-center justify-center gap-2">
+                    <Mail className="w-6 h-6" />
+                    <span>amilia@onus.asia</span>
+                  </div>
+                </div>
+              </div>
+
+              {/* Card 2 */}
+              <div class="text-center px-4 py-8 border-b md:border-b-0 xl:border-r border-white last:border-0 md:last:border-r-0 xl:last:border-r-0">
+                <h3 class="text-2xl font-bold text-[#28306E] mb-2">
+                  Mr. Juan Jeremy
+                </h3>
+                <p class="text-[#28306E] text-2xl font-normal mb-4">
+                  Sales & Marketing Coordinator
+                </p>
+                <div class="space-y-3 text-2xl font-medium text-[#28306E]">
+                  <div class="flex flex-wrap items-center justify-center gap-2">
+                    <Phone className="w-6 h-6" />
+                    <span>+62 813 1707 6411</span>
+                  </div>
+                  <div class="flex flex-wrap items-center justify-center gap-2">
+                    <Mail className="w-6 h-6" />
+                    <span>juan.onus2025@gmail.com</span>
+                  </div>
+                </div>
+              </div>
+
+              {/* Card 3 */}
+              <div class="text-center px-4 py-8 md:col-span-2 lg:col-span-2 xl:col-span-1 md:border-0">
+                <h3 class="text-2xl font-bold text-[#28306E] mb-2">
+                  Ms. Kezia Bintang
+                </h3>
+                <p class="text-[#28306E] text-2xl font-normal mb-4">
+                  Sales & Marketing Staff
+                </p>
+                <div class="space-y-3 text-2xl font-medium text-[#28306E]">
+                  <div class="flex flex-wrap items-center justify-center gap-2">
+                    <Phone className="w-6 h-6" />
+                    <span>+62 821 9053 6614</span>
+                  </div>
+                  <div class="flex flex-wrap items-center justify-center gap-2">
+                    <Mail className="w-6 h-6" />
+                    <span>kezia.onus@gmail.com</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* SECRETARIAT */}
+            <div class="text-center space-y-10">
+              <h3 class="text-xl font-bold text-[#28306E]">
+                Secretariat IndoEBTKE ConEx 2025
+              </h3>
+              <div class="flex- flex-col space-y-3 items-center">
+                <h4 class="text-xl font-bold text-[#28306E]">
+                  On Us Asia (PT. Energi Kreatif Dinamika)
+                </h4>
+                <p class="text-[#28306E] text-xl font-normal">
+                  The Strategic Global Event Partner
+                </p>
+              </div>
+
+              <div class="space-y-2">
+                <div class="flex items-center justify-center text-xl text-[#28306E] gap-2">
+                  <span>
+                    Plaza Asia 18<sup>th</sup> floor, Jl. Jend Sudirman Kav 58 - 59
+                  </span>
+                </div>
+                <p class="text-[#28306E] text-xl">Jakarta Selatan</p>
+              </div>
+
+              <div class="space-y-2 mt-6">
+                <h5 class="text-xl font-bold text-[#28306E]">
+                  Ms. Amilia
+                </h5>
+                <div class="flex items-center justify-center text-xl text-[#28306E] gap-2">
+                  <span>+62 812 2223 7200</span>
+                </div>
+                <p class="text-[#28306E] text-xl">www.onus.asia</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Footer */}
+        <Footer />
+      </div>
+    </div>
+</Main>
